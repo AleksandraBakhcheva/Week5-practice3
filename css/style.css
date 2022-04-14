@@ -1,0 +1,132 @@
+/*style for the_magic_slab */
+
+body{
+    background: #FEC77E;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+header{
+    font-weight: 700;
+    border-bottom: #000000 solid 2px;
+}
+nav{
+    display: inline-block;
+    margin-top: 58px;
+    padding-left: 100px;
+    vertical-align: top;
+}
+nav a{
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #000000;
+}
+nav a:hover{
+    background-color: #ECE9E9;
+}
+#title{
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: -2px;
+    padding-left: 150px;
+    padding-right: 220px;
+    font-size: 80px;
+    color: #CC2A41;
+    
+}
+#button{
+    display: inline-block;
+    margin-top: 35px;
+    height: 53px;
+    width: 150px;
+    vertical-align: top;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #CC2A41;
+    border: #CC2A41;
+    color: #ECE9E9;
+}
+#button:active{
+    background: #000000;
+}
+h2{
+    text-align: center;
+    color: #CC2A41;
+    font-weight: 400;
+}
+h2:first-child:hover{
+    color: #008000;
+}
+#freshly{
+    margin-top: 69px;
+    margin-bottom: -160px;
+    font-size: 196px;
+}
+.hover{
+    position: absolute;
+    color: #BD571B;
+    font-size: 27px;
+}
+#first_line{
+    margin-top: 330px;
+    margin-left: 145px;
+}
+#second_line{
+    margin-top: 360px;
+    margin-left: 158px;
+}
+#churned{
+    margin-bottom: -170px;
+    font-size: 201px;
+}
+#every_day{ 
+    font-size: 210px;
+}
+.pictures{
+    margin-top: -120px;
+    text-align: center;
+}
+#ice_cream_1{
+    margin-left: 24px;
+    margin-bottom: 300px;
+    width: 80px;
+}
+#ice_cream_2{
+    height: 307px;
+    margin-left: -35px;
+    margin-bottom: 100px;
+}
+#ice_cream_3{
+    height: 494px;
+    margin-left: -150px;
+}
+#ice_cream_4{
+    height: 494px;
+    margin-left: -170px;
+}
+#ice_cream_5{
+    height: 307px;
+    margin-left: -100px;
+    margin-bottom: 100px;
+}
+#ice_cream_6{
+    margin-right: 24px;
+    margin-bottom: 300px;
+    width: 80px;
+}
+#featured{
+    margin-top: 138px;
+    font-size: 31px;
+}
+.logos{
+    margin-top: 64.58px;
+    margin-bottom: 160px;
+    text-align: center;
+}
+#logo_1{
+    margin-left: -10px; 
+}
+#logo_1, #logo_2, #logo_3, #logo_4, #logo_5{
+    margin-right: 70px;
+}
