@@ -1,132 +1,130 @@
 /*style for the_magic_slab */
-
 body{
     background: #FEC77E;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
+header, nav, .title, .containerbutton, .freshly, .secondline, .containerhover, .everyday, .containericecream, .featured, .logoscontainer{
+    display: flex;
+}
 header{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 12.8vh;
     font-weight: 700;
     border-bottom: #000000 solid 2px;
 }
 nav{
-    display: inline-block;
-    margin-top: 58px;
-    padding-left: 100px;
-    vertical-align: top;
+    align-items: center;
 }
 nav a{
-    display: inline-block;
-    padding-left: 30px;
+    display: inline-flex;
     text-decoration: none;
     font-size: 19px;
     color: #000000;
+    padding: 7px;
 }
-nav a:hover{
-    background-color: #ECE9E9;
-}
-#title{
-    display: inline-block;
-    margin-top: 18px;
-    margin-bottom: -2px;
-    padding-left: 150px;
-    padding-right: 220px;
+.title{
+    align-items: center;
     font-size: 80px;
     color: #CC2A41;
-    
+}
+.containerbutton{
+    align-items: center;
 }
 #button{
-    display: inline-block;
-    margin-top: 35px;
     height: 53px;
     width: 150px;
-    vertical-align: top;
     border-radius: 10px;
     font-size: 16px;
     background: #CC2A41;
     border: #CC2A41;
     color: #ECE9E9;
 }
-#button:active{
-    background: #000000;
-}
 h2{
     text-align: center;
     color: #CC2A41;
     font-weight: 400;
 }
-h2:first-child:hover{
-    color: #008000;
-}
-#freshly{
+.freshly{
+    justify-content: center;
     margin-top: 69px;
-    margin-bottom: -160px;
     font-size: 196px;
 }
+.secondline{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-top: -120px;
+    margin-left: -145px;
+}
+.containerhover{
+    flex-direction: column;
+    margin-bottom: -100px; 
+    margin-right: 50px; 
+}
 .hover{
-    position: absolute;
     color: #BD571B;
     font-size: 27px;
+    margin-bottom: -25px;
 }
-#first_line{
-    margin-top: 330px;
-    margin-left: 145px;
-}
-#second_line{
-    margin-top: 360px;
-    margin-left: 158px;
-}
-#churned{
-    margin-bottom: -170px;
+.churned{
     font-size: 201px;
 }
-#every_day{ 
+.everyday{ 
+    justify-content: center;
+    margin-top: 40px;
     font-size: 210px;
 }
-.pictures{
-    margin-top: -120px;
-    text-align: center;
+.containericecream{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -175px;
+    height: 85vh;
 }
-#ice_cream_1{
+.ice_cream_1{
     margin-left: 24px;
     margin-bottom: 300px;
     width: 80px;
 }
-#ice_cream_2{
+.ice_cream_2{
     height: 307px;
     margin-left: -35px;
     margin-bottom: 100px;
 }
-#ice_cream_3{
+.ice_cream_3{
     height: 494px;
     margin-left: -150px;
 }
-#ice_cream_4{
+.ice_cream_4{
     height: 494px;
     margin-left: -170px;
 }
-#ice_cream_5{
+.ice_cream_5{
     height: 307px;
     margin-left: -100px;
     margin-bottom: 100px;
 }
-#ice_cream_6{
+.ice_cream_6{
     margin-right: 24px;
     margin-bottom: 300px;
     width: 80px;
 }
-#featured{
-    margin-top: 138px;
-    font-size: 31px;
+footer{
+    height: 35vh;
 }
-.logos{
-    margin-top: 64.58px;
-    margin-bottom: 160px;
-    text-align: center;
+.featured{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-#logo_1{
-    margin-left: -10px; 
-}
-#logo_1, #logo_2, #logo_3, #logo_4, #logo_5{
-    margin-right: 70px;
+.logoscontainer{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
